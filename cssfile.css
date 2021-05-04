@@ -1,0 +1,35 @@
+
+    .navbar{
+      display: flex;
+      justify-content: space-between;
+     
+  }
+  
+   header.navbar{
+      padding: 2px 3%;
+      opacity: 1;
+      background-color:	white;
+       
+  }
+  header li:hover{
+      background-color: whitesmoke;
+      border-radius: 5px;
+  }
+      .bd-placeholder-img {
+     font-size: 1.125rem;
+     text-anchor: middle;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     user-select: none;
+   }
+
+   @media (min-width: 768px) {
+     .bd-placeholder-img-lg {
+       font-size: 3.5rem;
+     }
+   }
+body{
+  overflow-x:none ;
+}
+
+
