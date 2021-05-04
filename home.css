@@ -131,6 +131,8 @@ footer{
       margin-left: auto;
       margin-right: auto;
       padding:70px 0;
+    color:rgb(54, 69, 79);
+    padding-bottom:50px;
       font-family: Karla, Arial, sans-serif;
   
   
@@ -159,6 +161,7 @@ footer{
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
   @media screen  and (max-width:540px){
     .section1 main h1{ 
     font-size: 40px;
