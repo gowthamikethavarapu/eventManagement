@@ -1,26 +1,77 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Blog</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="blog.css">
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </style>
 <body class="w3-light-grey">
+    <div class="w3-content" style="max-width:1400px">
+<!-- Header -->
+   <header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>MY BLOG</b></h1>
+    
+       
+ </header>
 
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                
+                <a class="navbar-brand " href=""><img src="./logo.png" width="250px" height="80px" alt=""></a>
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            
+               <ul class="navbar-nav ml-auto" style="font-size: 20px;" >
+                <li class="nav-item ">
+                    <a class="nav-link" href="/index.html"><strong>Home</strong></a>  
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/price.html"><strong>packages</strong></a>  
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog.html"><strong>blog</strong></a>  
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html"><strong>about us</strong></a>  
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contactus.html"><strong>contact us</strong></a>  
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/signup.html"><strong>signup</strong></a>  
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login.html"><strong>login</strong></a>  
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/addtocart.html"><strong>cart</strong></a>  
+                </li>
+                </ul>
+              </div>
+             </nav>
+  </header>
 <!-- w3-content defines a container for fixed size centered content, 
 and is wrapped around the whole page content, except for the footer in this example -->
-<div class="w3-content" style="max-width:1400px">
 
+
+<div class="w3-content" style="max-width:1400px">
 <!-- Header -->
-<header class="w3-container w3-center w3-padding-32"> 
+   <header class="w3-container w3-center w3-padding-32"> 
   <h1><b>MY BLOG</b></h1>
-  <p>Welcome to the blog of Event Management <span class="w3-tag"></span></p></p>
-  
-</header>
+       <p>Welcome to the blog of Event Management <span class="w3-tag"></span></p> 
+ </header>
 
 <!-- Grid -->
 <div class="w3-row">
@@ -29,26 +80,32 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div class="w3-col l8 s12">
   <!-- Blog entry -->
   <div class="w3-card-4 w3-margin w3-white">
-    
+    <img src="https://www.campfirefw.org/wp-content/uploads/2020/05/memorablei-moments.png" alt="Memory" style="width:100%">
     <div class="w3-container">
         
-      <h3><b>Memorable</b></h3>
+      <h3><b>Memorable Moments</b></h3>
       <h5>Title description, <span class="w3-opacity">April 1, 2021</span></h5>
     </div>
 
     <div class="w3-container">
-      <p>Life is an event. Make it memorable.<br>
-        Make any occasion unforgettable<br>
-        Our business is making memories<br>
-        Remembered always<br>
-        Exclusive events, priceless memories<br>
-        Memorable events don’t just happen. They happen to be our business...</p>
+      <p style font:30px>Life is an event. Make it memorable.
+        Make any occasion unforgettable
+        Our business is making memories
+        Remembered always
+        Exclusive events, priceless memories
+        Memorable events don’t just happen. They happen to be our business...
+        Because in your dreams, every detail matters
+        Creating the Best. Day. Ever.
+        Every love story is beautiful, but yours should be unique
+        We build your dream around you
+        Bringing dreams to life
+        Your dream event, delivered</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
           <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE &raquo;</b></button></p>
         </div>
         <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Comments &nbsp;</b> <span class="w3-tag">5</span></span></p>
+          <p><span class="w3-padding-large w3-right"><b>Comments &nbsp;</b> <span class="w3-tag">1</span></span></p>
         </div>
       </div>
     </div>
@@ -57,20 +114,29 @@ and is wrapped around the whole page content, except for the footer in this exam
 
   <!-- Blog entry -->
   <div class="w3-card-4 w3-margin w3-white">
-  
+    <img src="https://designermag.org/wp-content/uploads/2013/09/wedding-event.jpg" alt="Wedding" style="width:100%">
     <div class="w3-container">
       <h3><b>Wedding Events</b></h3>
       <h5>Title description, <span class="w3-opacity">April 2, 2021</span></h5>
     </div>
 
     <div class="w3-container">
-      <p>To love, laughter, and happily ever after<br>
-        Happily ever after begins here<br>
-        And so, the adventure begins<br>
-        True love is the greatest adventure<br>
-        To a lifetime of adventures together<br>
-        Together is a beautiful place to be<br>
-        To the moon and back..</p>
+      <p>To love, laughter, and happily ever after
+        Happily ever after begins here
+        And so, the adventure begins
+        True love is the greatest adventure
+        To a lifetime of adventures together
+        Together is a beautiful place to be
+        To the moon and back..To the moon and back
+        Lucky in love
+        Oh happy day!
+        Eat, drink, and be married
+        Designing your perfect day
+        Turning ideas into action
+        The event you imagine, brought to life
+        Your vision. Our innovation: Event solutions.
+        Where your ideas take off
+        Making events come alive</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
           <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE &raquo;</b></button></p>
@@ -88,6 +154,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div class="w3-col l4">
   <!-- About Card -->
   <div class="w3-card w3-margin w3-margin-top">
+    <img src="https://partymojo.com.sg/wp-content/uploads/2015/04/Farm-1.jpg" alt="Birthday" style="width:100%">
   
     <div class="w3-container w3-white">
       <h4><b>Birthday Events</b></h4>
@@ -97,6 +164,9 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="w3-col m8 s12">
           <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE &raquo;</b></button></p>
         </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments &nbsp;</b> <span class="w3-badge">6</span></span></p>
+        </div>
         
     </div>
   </div>
@@ -105,34 +175,42 @@ and is wrapped around the whole page content, except for the footer in this exam
  <!-- Posts -->
  <div class="w3-col l4">
     <div class="w3-card w3-margin w3-margin-top">
+      <img src="https://th.bing.com/th/id/R2d080cdea6b83cae9b2b9a7084bb9f27?rik=Nph9zEARMW7C7A&riu=http%3a%2f%2fteamorange.in%2fwp-content%2fuploads%2f2017%2f02%2fevent-management-services-corporate-events.jpg&ehk=a%2f4fyhYNa%2f0MSBKXZFajSp%2b8xqYT6NQhzrXqgtEJAQI%3d&risl=&pid=ImgRaw" alt="Nature" style="width:100%">
       <div class="w3-container w3-white">
-        <h5>Corporate Function Events</h5>
+        <h4>Corporate Function Events</h4>
         <h5>Title description, <span class="w3-opacity">April 12, 2021</span></h5>
-        <p>Seminars and conferences<br>
-          Company milestone events<br>
+        <p>Seminars and conferences
+          Company milestone events
           Team-building events.</p>
         <div class="w3-row">
           <div class="w3-col m8 s12">
             <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE &raquo;</b></button></p>
           </div>
+          <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments &nbsp;</b> <span class="w3-badge">7</span></span></p>
+        </div>
       </div>
       </div>
   </div>
   </div>
   <div class="w3-col l4">
     <div class="w3-card w3-margin w3-margin-top">
+      <img src="https://cdn0.weddingwire.in/img_g/articulos-india/2018/non-troncales/mehndi-function-ideas/cover-shades.jpg" alt="Nature" style="width:100%">
       <div class="w3-container w3-white">
-        <h6>Ceremony Events</h6>
+        <h4>Ceremony Events</h4>
         <h5>Title description, <span class="w3-opacity">April 22, 2021</span></h5>
       </div>
       <div class="w3-container w3-white">
-          <p>A ceremony allows us to acknowlege a transition or a riteof passage<br>
-          Holy Union or Commitment ceremonies<br>
+          <p>A ceremony allows us to acknowlege a transition or a riteof passage
+          Holy Union or Commitment ceremonies
       Civil Ceremony</p>
         <div class="w3-row">
           <div class="w3-col m8 s12">
             <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE &raquo;</b></button></p>
           </div>
+          <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments &nbsp;</b> <span class="w3-badge">3</span></span></p>
+        </div>
       </div>
       </div>
          </div>
@@ -159,8 +237,11 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Footer -->
 <footer class="container">
+  <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+    <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+    <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next &raquo;</button>
     <p class="float-right"><a href="#">Back to top</a></p>
-    <p>© 2020 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  
   </footer>
 </body>
 </html>
