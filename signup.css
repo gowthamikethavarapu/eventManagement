@@ -8,7 +8,7 @@ body{
     background-position: center;
 }
 .sign-up form{
-    width: 300px;
+    width: 50%;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
     background: #fff;
     padding: 20px;
