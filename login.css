@@ -7,7 +7,7 @@ body{
     align-content:center;
     background-color: rgb(246,223,235);
 }
-.sign-up form{
+.login form{
   
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
     background: #fff;
@@ -16,7 +16,7 @@ body{
    
     text-align: center;
 }
-.sign-up form h1{
+.login form h1{
     color: #1c8adb;
     margin-bottom: 30px;
 }
@@ -39,10 +39,10 @@ button{
     outline: none;
     cursor: pointer;
 }
-.signup-btn,.google-btn{
+.login-btn,.google-btn{
     background-color:#29d2db;
 }
-.signup-btn:hover,.google-btn:hover{
+.login-btn:hover,.google-btn:hover{
     background-color:#ccf2f4;
 }
 
@@ -58,7 +58,7 @@ hr{
     width: 30px;
     margin: -19px auto 10px;
 }
-.sign-up img{
+.login img{
     width: 70px;
 }
 *{
@@ -95,7 +95,7 @@ header li:hover{
     width:auto;
 }
   @media screen  and (max-width:540px){
-    .sign-up form{
+    .login form{
         width:80%;
       }
     }
