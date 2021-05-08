@@ -19,7 +19,7 @@ body{
      
 }
 .section1 li:hover{
-    background-color: whitesmoke;
+    background-color: rdb(220,220,220)
     border-radius: 5px;
     color:  rgb(246 223 235);
 }
@@ -175,5 +175,8 @@ footer{
     .section2{
         padding-top: 100px;
     }
+      body{
+    overflow-x: hidden;
+ }
    
 }
