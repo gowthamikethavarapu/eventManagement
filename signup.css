@@ -5,13 +5,10 @@ body{
     margin-top: 100px;
     display:flex;
     justify-content:center;
+    align-content:center;
 }
 .sign-up form{
-    
-  top: 50%;
- position:absolute;
-  transform: translateY(-50%);
-    width: 40%;
+  
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
     background: #fff;
     padding: 20px;
