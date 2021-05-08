@@ -8,12 +8,12 @@ body{
     background-position: center;
 }
 .sign-up form{
-    width: 50%;
+    width: 40%;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
     background: #fff;
     padding: 20px;
     margin: 8% auto 0;
-    margin-top: 90px;
+    margin-top:100px;
     text-align: center;
 }
 .sign-up form h1{
@@ -24,7 +24,7 @@ body{
     border-radius: 20px;
     padding: 10px;
     margin: 10px 0;
-    width: 90%;
+    width: 80%;
     border: 1px solid #999;
     outline: none;
 }
