@@ -39,12 +39,13 @@ button{
     outline: none;
     cursor: pointer;
 }
-.signup-btn{
-    background-color: #1c8adb;
+.signup-btn,.google-btn{
+    background-color:#29d2db;
 }
-.google-btn{
-    background-color: #21afde;
+.signup-btn:hover,.google-btn:hover{
+    background-color:#ccf2f4;
 }
+
 a{
     text-decoration: none;
 }
