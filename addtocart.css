@@ -13,6 +13,7 @@ header .navbar{
     padding: 2px 3%;
     opacity: 1;
     background-color:	white;
+    font-family:"serif";
      
 }
 header li:hover{
