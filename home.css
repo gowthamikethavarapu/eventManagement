@@ -19,7 +19,8 @@ body{
      
 }
 .section1 li:hover{
-    background-color: rdb(220,220,220)
+     background-color: whitesmoke;
+    
     border-radius: 5px;
     color:  rgb(246 223 235);
 }
