@@ -131,14 +131,14 @@ footer{
       margin-left: auto;
       margin-right: auto;
       padding:70px 0;
-    color:rgb(54, 69, 79);
+    
     padding-bottom:50px;
       font-family: Karla, Arial, sans-serif;
   
   
   }
 .section4 ul a{
-     color:  rgb(246 223 235);
+     color:rgb(54, 69, 79);
 }
   
   .footercols{
@@ -154,6 +154,7 @@ footer{
   }
   .footercols ul li a:hover{
      background-color: white;
+      color:black;
 
   }
   .footercols ul li,span{
