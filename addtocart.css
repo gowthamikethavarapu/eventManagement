@@ -21,7 +21,7 @@ header li:hover{
     color:  rgb(246 223 235);
 }
 .container{
-   
+    padding-top:60px;
     background: E8F0F9;
 }
 .row-4{
