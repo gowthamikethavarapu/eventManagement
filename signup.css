@@ -9,13 +9,13 @@ body{
 .sign-up form{
     
   top: 50%;
- 
+ position:absolute;
   transform: translateY(-50%);
     width: 40%;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
     background: #fff;
     padding: 20px;
-    margin: 8% auto 0;
+   margin:auto;
    
     text-align: center;
 }
