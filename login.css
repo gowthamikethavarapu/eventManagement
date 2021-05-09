@@ -5,7 +5,9 @@ body{
     display:flex;
     justify-content:center;
     align-content:center;
-    background-color: rgb(246,223,235);
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-_pCpfyGqe_47XKxt5kxkSe_VAiWyifCb4w&usqp=CAU");
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 .login form{
   
